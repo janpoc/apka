@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
- get '/users', to: "users#users"
+ get '/users', to: "users#index"
 
  get '/info', to: "static_pages#info"
  get '/contact', to: "static_pages#contact"
