@@ -1,5 +1,9 @@
 Rails.application.routes.draw do
- get '/users', to: "users#index"
+ 
+  devise_for :users
+resources :orders
+resources :users
+root to: "static_pages#info"
 
  get '/info', to: "static_pages#info"
  get '/contact', to: "static_pages#contact"
