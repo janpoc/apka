@@ -9,3 +9,8 @@ users = %w(Kasia Maciek Jan Maks Patryk Szefu)
 users.each do |user|
   User.create(name: user)
 end
+
+Orders = %w(kolo sruba mlotek wkret)
+orders.each do |orders|
+  Order.create(product: orders)
+end

@@ -11,4 +11,7 @@ class StaticPagesController < ApplicationController
   def mission
   end
 
+  def orders
+  end
+
 end
